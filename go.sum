@@ -1,7 +1,7 @@
 github.com/go-nlp/dmmclust v1.1.0 h1:IZec2aicGkiE9/zF7kUvoiOV9lHg3f9oudnpxnzhI3g=
 github.com/go-nlp/dmmclust v1.1.0/go.mod h1:L145edww8hypgDCrG50JKyoyH4+tBNGXPKfOVMR5s6E=
-github.com/grokify/mogo v0.41.0 h1:VK9w3UUi7mDdzgS/q63LGBx1gN7SkGD/dnL1FnHS7uI=
-github.com/grokify/mogo v0.41.0/go.mod h1:V3nkl9GT44dyFZJYetSfFMj/4hqRMBCtoWUXDC6yVJw=
+github.com/grokify/mogo v0.41.1 h1:ZZBi4Pcap5jOygVrUHE0R6qniEwjl+7YlX8pTjUPq2o=
+github.com/grokify/mogo v0.41.1/go.mod h1:V3nkl9GT44dyFZJYetSfFMj/4hqRMBCtoWUXDC6yVJw=
 github.com/huandu/xstrings v1.3.3 h1:/Gcsuc1x8JVbJ9/rlye4xZnVAbEkGauT8lbebqcQws4=
 github.com/huandu/xstrings v1.3.3/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq4ovT0aE=
 github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
