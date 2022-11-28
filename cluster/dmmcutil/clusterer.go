@@ -102,7 +102,7 @@ func (dmmc *DMMClusterer) BuildClustersCanonical() {
 		}
 	}
 	clus := []dmmclust.Cluster{}
-	ids := maputil.IntKeys(clusMap, true)
+	ids := maputil.IntKeys(clusMap)
 	for _, id := range ids {
 		clus = append(clus, clusMap[id])
 	}
@@ -134,7 +134,7 @@ func (dmmc *DMMClusterer) BuildClusterMetas() error {
 		}
 		cm := ClusterMeta{
 			ID:      clu.ID(),
-			DocIDs:  maputil.IntKeys(docIDs, true),
+			DocIDs:  maputil.IntKeys(docIDs),
 			Cluster: clu}
 		if centerDocID, ok := dmmc.CenterDocs[clu.ID()]; ok {
 			cm.CenterDocID = centerDocID
