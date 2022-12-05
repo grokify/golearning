@@ -58,8 +58,7 @@ func (dmmc *DMMClusterer) Inflate() error {
 		return err
 	}
 	dmmc.BuildCenterDocs() // Must run canonical clusters first
-	dmmc.BuildClusterMetas()
-	return nil
+	return dmmc.BuildClusterMetas()
 }
 
 var ErrNoClusters = errors.New("no clusters error")
