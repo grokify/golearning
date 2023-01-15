@@ -14,5 +14,5 @@ func (docs Documents) IDs() []int {
 			wordIDs[id]++
 		}
 	}
-	return maputil.IntKeys(wordIDs)
+	return maputil.Keys(wordIDs)
 }
