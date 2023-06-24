@@ -20,8 +20,8 @@ type DMMClusterer struct {
 	//CenterDocAlg4 int // supports duplicate words in doc
 }
 
-func NewDMMClusterer(numClusters, clusterSize uint, randSeed int64, docs []dmmclust.Document) (*DMMClusterer, error) {
-	cfg, err := ConfigDefault(numClusters, randSeed)
+func NewDMMClusterer(numClusters, clusterSize uint, docs []dmmclust.Document) (*DMMClusterer, error) {
+	cfg, err := ConfigDefault(numClusters)
 	if err != nil {
 		return &DMMClusterer{}, err
 	}
