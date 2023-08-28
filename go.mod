@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/go-nlp/dmmclust v1.1.0
-	github.com/grokify/mogo v0.53.0
+	github.com/grokify/mogo v0.54.1
 )
 
 require (
