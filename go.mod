@@ -6,7 +6,7 @@ go 1.21
 
 require (
 	github.com/go-nlp/dmmclust v1.1.0
-	github.com/grokify/mogo v0.62.2
+	github.com/grokify/mogo v0.62.3
 )
 
 require (
