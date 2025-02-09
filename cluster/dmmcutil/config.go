@@ -7,7 +7,7 @@ import (
 	"github.com/grokify/mogo/crypto/randutil"
 )
 
-func ConfigDefault(numClusters uint) (dmmclust.Config, error) {
+func ConfigDefault(numClusters uint16) (dmmclust.Config, error) {
 	var err error
 	if numClusters <= 0 {
 		numClusters = 10 // default number of clusters
